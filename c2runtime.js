@@ -19789,9 +19789,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Mouse,
 	cr.plugins_.Sprite,
-	cr.plugins_.Text,
 	cr.plugins_.TiledBg,
 	cr.plugins_.Touch,
+	cr.plugins_.Text,
 	cr.behaviors.Fade,
 	cr.behaviors.scrollto,
 	cr.system_object.prototype.cnds.EveryTick,
@@ -19843,6 +19843,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Text.prototype.cnds.CompareY,
+	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
 	cr.system_object.prototype.cnds.OnLoadFinished,
 	cr.system_object.prototype.acts.GoToLayout
 ];};
